@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# macOS
+.DS_Store
+
+# Results (optional - recommended to exclude heavy files)
+results/traces/
+*.json
+
+# Large files
+*.pt
+*.bin
+*.gguf
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Plots (optional if large)
+# plots/

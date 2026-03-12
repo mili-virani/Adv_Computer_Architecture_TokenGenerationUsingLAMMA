@@ -1,0 +1,10 @@
+torch>=2.1.0
+transformers>=4.35.0
+accelerate>=0.20.3
+huggingface-hub>=0.20.0
+sentencepiece
+tokenizers
+numpy
+pandas
+matplotlib
+tqdm
