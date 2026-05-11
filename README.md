@@ -15,7 +15,7 @@ This repo benchmarks token-generation latency for LLaMA-style models with:
 ```bash
 ./scripts/setup_env.sh
 source .venv/bin/activate
-huggingface-cli login
+hf auth login
 ```
 
 ### Windows
@@ -23,7 +23,7 @@ huggingface-cli login
 ```bat
 .\scripts\setup_windows.bat
 .venv\Scripts\activate
-huggingface-cli login
+hf auth login
 ```
 
 ## Third-Party Libraries
