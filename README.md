@@ -14,3 +14,4 @@ This repo benchmarks token-generation latency for LLaMA-style models with:
 ./scripts/setup_env.sh
 source .venv/bin/activate
 huggingface-cli login
+```
