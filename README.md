@@ -15,3 +15,19 @@ This repo benchmarks token-generation latency for LLaMA-style models with:
 source .venv/bin/activate
 huggingface-cli login
 ```
+
+## Third-Party Libraries
+
+This repo uses the following third-party libraries:
+
+- From [Hugging Face](https://huggingface.co):
+    - [Accelerate](https://huggingface.co/docs/accelerate/index)
+    - [Hub client library](https://huggingface.co/docs/huggingface_hub)
+    - [Tokenizers](https://huggingface.co/docs/tokenizers/en/index)
+    - [Transformers](https://huggingface.co/docs/transformers/index)
+- [Matplotlib](https://matplotlib.org)
+- [NumPy](https://numpy.org)
+- [pandas](https://pandas.pydata.org)
+- [PyTorch](https://pytorch.org)
+- [SentencePiece](https://github.com/google/sentencepiece)
+- [tqdm](https://github.com/tqdm/tqdm)
