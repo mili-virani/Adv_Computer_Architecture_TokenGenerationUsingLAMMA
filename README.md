@@ -9,10 +9,20 @@ This repo benchmarks token-generation latency for LLaMA-style models with:
 - Profiler trace export for architectural reasoning
 
 ## Setup
+
 ### Linux/macOS
+
 ```bash
 ./scripts/setup_env.sh
 source .venv/bin/activate
+huggingface-cli login
+```
+
+### Windows
+
+```bat
+.\scripts\setup_windows.bat
+.venv\Scripts\activate
 huggingface-cli login
 ```
 
